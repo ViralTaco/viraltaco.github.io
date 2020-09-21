@@ -51,6 +51,7 @@ main > article {
   padding: 1.5rem;
   border-radius: 1rem;
   height: max-content;
+  max-width: calc(100vw - 2em);
 }
 
 #hero {
