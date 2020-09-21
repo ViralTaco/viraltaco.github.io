@@ -61,17 +61,5 @@ main > article {
   font-size: 10rem;
   font-weight: 100;
   letter-spacing: -1rem;
-  
-  background-image: linear-gradient(
-    to right
-  , var(--hero-gradient-begin) 0%
-  , var(--hero-gradient-end) 100%
-  );
-  
-  background-clip: text;
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
-  
-  text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
+  color: #000;
 }
