@@ -1,3 +1,6 @@
+/* Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
+ * https://github.com/IBM/plex/blob/master/IBM-Plex-Mono/fonts/complete/woff2/license.txt
+ */
 @font-face { /* italic */
   font-family: 'IBM Plex Mono';
   font-style: italic;
@@ -16,6 +19,10 @@
        local('IBMPlexMono-Light'), 
        url('./IBMPlexMono-Light.woff2') format('woff2');
 }
+
+/*
+ * Copyright © 2020 viraltaco_ all rights reserved. 
+ */
 
 :root {
   --back-dark: #242424;
