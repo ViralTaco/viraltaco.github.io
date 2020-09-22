@@ -1,11 +1,20 @@
-@font-face {
-  font-family: 'Cutive Mono';
-  font-style: normal;
-  font-weight: 400;
+@font-face { /* italic */
+  font-family: 'IBM Plex Mono';
+  font-style: italic;
+  font-weight: 300;
   font-display: swap;
-  src: local('Cutive Mono Regular'), 
-       local('CutiveMono-Regular'), 
-       url('./CutiveMono-Regular.ttf') format('woff2');
+  src: local('IBM Plex Mono Light Italic'), 
+       local('IBMPlexMono-LightItalic'), 
+       url('./IBMPlexMono-LightItalic.woff2') format('woff2');
+}
+@font-face { /* normal */
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('IBM Plex Mono Light'), 
+       local('IBMPlexMono-Light'), 
+       url('./IBMPlexMono-Light.woff2') format('woff2');
 }
 
 :root {
@@ -14,7 +23,7 @@
   --hero-gradient-begin: #92fe9d;
   --hero-gradient-end: #00fe9d;
   
-  --monospace: 'Cutive Mono', monospace;
+  --monospace: 'IBM Plex Mono', monospace;
 }
 
 * {
@@ -61,9 +70,13 @@ main > article {
   display: inline-flex;
   align-content: center;
   align-self: center;
+  
   font-family: var(--monospace);
-  font-size: 10rem;
-  font-weight: 100;
-  letter-spacing: -1rem;
+  font-style: italic;
+  font-weight: 300;
+  font-variant: unicase;
+  font-size: 10vw;
+  
+  letter-spacing: -.1337vw;
   color: #000;
 }
